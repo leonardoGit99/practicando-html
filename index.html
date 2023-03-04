@@ -1,12 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>Mi primera web</title>
 </head>
 <body>
-    
+    <hr>
+    <h1>Mi primer heading</h1>
+    <p>Mi primer parrafo</p>
+    <p>con salto de linea en diferentes parrafos</p>
+    <h2>Mi segundo heading</h2>
+    <p>
+        Esto es para <span style = "color:red"> probar </span> el seleccionador de texto o etiqueta html 
+        dentro de otras etiquetas y asignar un estilo o manipularla
+    </p>
+    <h3>Mi tercer heading</h3>
+    <p>
+        Esto es un parrafo que, en el caso de que sea demasiado extenso <br>
+        yo puedo forzar un salto de linea
+    </p>
+    <h4>Mi cuarto heading</h4>
+    <!-- Esto es un comentario para indicar que ahora 
+        veremos como insertar un hipervinculo-->
+    <a href = "https://google.com.bo"> 
+        Esto es un hiperviculo para abrir google en la misma pestaña
+    </a>
+    <br>
+    <a target = _blank href = "https://google.com.bo"> 
+        Esto es un hiperviculo para abrir google en una pestaña nueva pestaña
+    </a>
+    <h5>Mi quinto heading</h5>
+    <img src = "img\tazadecafe-1.jpg" width="400" height="200" />
+    <h6>Mi sexto heading</h6>
+    <form action="/formulario.php" method="GET">
+        <label for="nombre"> Ingrese su nombre: </label>
+        <input value="texto por defecto" type = "text" id="nombre" name="nombre" placeholder="Ingrese su nombre" />
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="Ingrese su email" />
+        <br>
+        <br>
+        <label for="contrasenia">Contraseña: </label>
+        <input type="password" id="contrasenia" name="contrasenia" placeholder="Ingrese su contrasenia"/>
+        <br>
+        <br>
+        <label for="archivo">Archivo: </label>
+        <input type="file" id="archivo" name="archivo" />
+        <br>
+        <br>
+        <label for="checkbox"> Pickear: </label>
+        <input type = "checkbox" id="checkbox" name="checkbox"/>
+        <br>
+        <br>
+        <label for="seleccionar">Seleccionar: </label>
+        <input type="radio" id="seleccionar" name="seleccionar" />
+        <br>
+        <br>
+        <label for="comentario">Comentario: </label>
+        <textarea cols="50" rows="3" placeholder="Ingrese su comentario" id="comentario" name="comentario">Texto por defecto</textarea>
+        <br>
+        <br>
+        <label for="boton-confirmar">Confimar: </label>
+        <input type="submit" id="boton-confirmar" name="boton-confirmar"/>
+    </form>
+    <hr>
+    <h7>Mi septimo heading que no existe</h7>
+
 </body>
 </html>
